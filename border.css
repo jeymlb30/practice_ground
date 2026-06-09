@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    border-radius: 10px;
+   
+
+}
+body{
+    background-color: palevioletred;
+    display: flexbox;
+    
+   
+    
+   
+}
+.box1{
+    
+    width: 700px;
+    height: 300px;
+    border: solid black 1px;
+    padding: 20px;
+    box-sizing: content-box;
+    background-color: white;
+    display: flex;
+    
+    
+}
+.box2{
+    
+    width: 700px;
+    height: 300px;
+    border: solid black 1px;
+    display: flex;
+    
+    
+    
+    box-sizing: border-box;
+    background-color: white;
+}
+a{
+    display: flex;
+}
+p{
+    display: flexbox;
+}
