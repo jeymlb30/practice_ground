@@ -37,8 +37,8 @@ body{
     background-color: white;
 }
 a{
-    display: flex;
+    display: flexbox;
 }
 p{
-    display: flexbox;
+    display: block;
 }
