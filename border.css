@@ -6,7 +6,9 @@
 }
 body{
     background-color: palevioletred;
-    display: flexbox;
+    display: flex;
+    flex-direction: row;
+    flex : auto;
     
    
     
@@ -21,6 +23,7 @@ body{
     box-sizing: content-box;
     background-color: white;
     display: flex;
+    flex-shrink: 2;
     
     
 }
@@ -30,6 +33,7 @@ body{
     height: 300px;
     border: solid black 1px;
     display: flex;
+    flex-grow: 2;
     
     
     
@@ -37,7 +41,7 @@ body{
     background-color: white;
 }
 a{
-    display: flexbox;
+    
 }
 p{
     display: block;
